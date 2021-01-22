@@ -67,6 +67,18 @@ nav a {
     font-weight: 700;
 }
 
+.burgermenu {
+    display: none;
+}
+
+.tabview a {
+    border: 1px solid whitesmoke;
+    padding: 7px 20px;
+    margin-left: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+}
 
 /* Tablet view */
 
@@ -80,11 +92,6 @@ nav a {
         display: block;
     }
 
-    header {
-        display: block;
-        text-align: center;
-    }
-
     .heading {
         position: relative;
     }
@@ -93,15 +100,39 @@ nav a {
         padding-top: 40px;
     }
 
+    nav {
+        display: none;
+    }
+
     nav a {
         display: block;
         margin-left: 0;
     }
 
     .logo {
-        padding: 30px 0;
+        padding: 30px 10px;
     }
 
+    .burgermenu {
+        display: inline-block;
+        padding-right: 20px;
+    }
+
+    .tabview a{
+        display: block;
+        background-color: rgb(53, 143, 228);
+        padding: 7px 20px;
+        margin-left: -70px;
+        text-decoration: none;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .tabview {
+        display: none;
+        position: absolute;
+        padding-top: 10px;
+    }
 }
 
 
