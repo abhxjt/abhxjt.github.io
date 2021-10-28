@@ -1,151 +1,22 @@
-/* Desktop view */
-body {
-    font-family: 'Rubik', sans-serif;
-    background-color: #EBEBEB;
+body{
+    background-image: url(IMG20210903164246-01.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
-.container {
-    min-height: 500px;
-    max-width: 1024px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-top: 120px;
-}
-
-.boxes {
-    width: 30%;
-    margin-bottom: 40px;
-    background-color: rgb(11, 156, 156);
-}
-
-.hide-desktop {
-    display: none;
-}
-
-.boxes img {
-    width: 100%;
-    height: auto;
-}
-
-.boxes p {
+h1{
+    font-family: 'Permanent Marker', cursive;
     color: white;
-    font-size: 0.9rem;
-    padding: 5px 20px;
-    line-height: 1.2rem;
+    text-align: center;
 }
 
-.heading {
-    background-color: rgb(80, 77, 77);
-    min-height: 80px;
-    position: fixed;
-    width: 100%;
-    margin-top: -8px;
+h2{
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+    text-align: center;
 }
-
-header {
-    margin: 0 auto;
-    max-width: 1024px;
-    min-height: 80px;
-    color: whitesmoke;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav a {
-    border: 1px solid whitesmoke;
-    padding: 7px 20px;
-    margin-left: 10px;
-    display: inline-block;
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-.highlight {
-    font-weight: 700;
-}
-
-.burgermenu {
-    display: none;
-}
-
-.tabview a {
-    border: 1px solid whitesmoke;
-    padding: 7px 20px;
-    margin-left: 10px;
-    display: inline-block;
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-/* Tablet view */
-
-@media (max-width: 768px) {
-
-    .boxes {
-        width: 47%;
-    }
-
-    .hide-desktop {
-        display: block;
-    }
-
-    .heading {
-        position: relative;
-    }
-
-    .container {
-        padding-top: 40px;
-    }
-
-    nav {
-        display: none;
-    }
-
-    nav a {
-        display: block;
-        margin-left: 0;
-    }
-
-    .logo {
-        padding: 30px 10px;
-    }
-
-    .burgermenu {
-        display: inline-block;
-        padding-right: 20px;
-    }
-
-    .tabview a{
-        display: block;
-        background-color: rgb(53, 143, 228);
-        padding: 7px 20px;
-        margin-left: -70px;
-        text-decoration: none;
-        color: whitesmoke;
-        text-align: center;
-    }
-
-    .tabview {
-        display: none;
-        position: absolute;
-        padding-top: 10px;
-    }
-}
-
-
-/* Mobile view */
-
-@media (max-width: 400px) {
-
-    .boxes {
-        width: 100%;
-    }
-
-    .hide-mobile {
-        display: none;
-    }
-
+p{
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+    text-align: center;
 }
